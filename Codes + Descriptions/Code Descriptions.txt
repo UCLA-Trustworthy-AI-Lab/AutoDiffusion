@@ -1,0 +1,18 @@
+##################################### Main Codes #####################################
+* Pre- and post-processing
+(1) process_edited.py : code for pre- and post-processing used min-max scaler for continuous vars
+(2) process_GQ.py : code for pre- and post-processing used Gaussian Quantile Transformation for continuous vars
+
+* Diffusion Models from Stasy or TabDDPM
+diffusion.py : diffusion architecture from Stasy + training 
+TabDDPMdiff.py : diffusion architecture from TabDDPM + training
+
+* autoencoder.py : code for auto-encoder architecture + training 
+
+auto-diff.ipynb : Jupyter notebook for running the AutoDiff and generating tables. 
+
+(1) Stasy-AutoDiff : process_edited.py + diffusion.py + autoencoder.py
+(2) Tab-AutoDiff : proccess_GQ.py + TabDDPMdiff.py + autoencoder.py  
+
+############################ Fidelity, Correlation, DCR ##############################
+DCR.py, Fidelity.py, Correlation.py
